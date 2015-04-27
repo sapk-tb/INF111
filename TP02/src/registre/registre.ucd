@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1149,484" id="registre" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020545032">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.2/@sourceConnections.2 //@children.2/@sourceConnections.3 //@children.2/@sourceConnections.4 //@children.2/@sourceConnections.5" name="Personne" location="441,40" size="112,226" id="registre/Personne" runTimeClassModel="Personne(Lregistre.Personne;),Personne(Ljava.lang.String;Ljava.lang.String;CLdate.DateFrancaise;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="81,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Personne" id="registre/Personne#Personne(Lregistre.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Personne" id="registre/Personne#Personne(Ljava.lang.String;Ljava.lang.String;CLdate.DateFrancaise;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1" name="Registre" location="420,300" size="163,248" id="registre/Registre" runTimeClassModel="modifierContrat(),redigerSeparation(),consulter(),saisirContrat(),Registre(Lregistre.Personne;),redigerUnion(),redigerDeces(),saisirDate(),rechercherPersonne(Lregistre.Personne;),saisirPersonne(),ajouterPersonne()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,198">
+      <children xsi:type="editmodel:MethodEditModel" name="Registre" id="registre/Registre#Registre(Lregistre.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ajouterPersonne" id="registre/Registre#ajouterPersonne()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consulter" id="registre/Registre#consulter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="modifierContrat" id="registre/Registre#modifierContrat()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rechercherPersonne" id="registre/Registre#rechercherPersonne(Lregistre.Personne;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redigerDeces" id="registre/Registre#redigerDeces()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redigerSeparation" id="registre/Registre#redigerSeparation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redigerUnion" id="registre/Registre#redigerUnion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saisirContrat" id="registre/Registre#saisirContrat()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saisirDate" id="registre/Registre#saisirDate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saisirPersonne" id="registre/Registre#saisirPersonne()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Personne@lesPersonnes+registre/Registre@registre1" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="registre1" location="76,0" id="registre/Personne@lesPersonnes+registre/Registre@registre1|registre/Registre#registre1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lesPersonnes" location="55,226" id="registre/Personne@lesPersonnes+registre/Registre@registre1|registre/Personne#lesPersonnes" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lesPersonnes" location="503,273" size="83,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="484,273" size="5,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Union" location="80,40" size="138,104" id="registre/Union" runTimeClassModel="modifierContrat(Ljava.lang.String;Ldate.DateFrancaise;),Union(Ljava.util.Collection;Lregistre.Personne;Ljava.util.Collection;Ldate.DateFrancaise;Ljava.lang.String;),separer(Ldate.DateFrancaise;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Union" location="23,39" id="registre/Union#Union(Ljava.util.Collection;Lregistre.Personne;Ljava.util.Collection;Ldate.DateFrancaise;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="modifierContrat" id="registre/Union#modifierContrat(Ljava.lang.String;Ldate.DateFrancaise;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="separer" id="registre/Union#separer(Ldate.DateFrancaise;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Contrat@contrats+registre/Union@union" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="union" location="70,104" id="registre/Contrat@contrats+registre/Union@union|registre/Union#union" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="contrats" location="67,0" id="registre/Contrat@contrats+registre/Union@union|registre/Contrat#contrats" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - contrats" location="157,310" size="55,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="138,310" size="5,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Registre@registre+registre/Union@lesUnions" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.1" label="//@children.2/@sourceConnections.1/@children.2" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lesUnions" location="128,104" id="registre/Registre@registre+registre/Union@lesUnions|registre/Union#lesUnions" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lesUnions" location="137,151" size="64,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="215,151" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="registre" location="0,10" id="registre/Registre@registre+registre/Union@lesUnions|registre/Registre#registre"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Personne@lesTemoins+registre/Union@unionTemoignees" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.1" label="//@children.2/@sourceConnections.2/@children.2" sourceEnd="//@children.2/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="unionTemoignees" location="138,52" id="registre/Personne@lesTemoins+registre/Union@unionTemoignees|registre/Union#unionTemoignees" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.2/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - unionTemoignees" location="225,72" size="107,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="225,99" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lesTemoins" location="0,52" id="registre/Personne@lesTemoins+registre/Union@unionTemoignees|registre/Personne#lesTemoins" multiplicityLabel="//@children.2/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lesTemoins" location="363,72" size="71,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="2..*" location="416,99" size="18,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Personne@lesSepares+registre/Union@unionSeparees" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.3/@children.1" label="//@children.2/@sourceConnections.3/@children.2" sourceEnd="//@children.2/@sourceConnections.3/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="unionSeparees" location="138,12" id="registre/Personne@lesSepares+registre/Union@unionSeparees|registre/Union#unionSeparees" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.3/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - unionSeparees" location="225,32" size="93,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="225,59" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lesSepares" location="0,12" id="registre/Personne@lesSepares+registre/Union@unionSeparees|registre/Personne#lesSepares" multiplicityLabel="//@children.2/@sourceConnections.3/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.3/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lesSepares" location="363,32" size="71,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="414,59" size="20,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Personne@lesUnis+registre/Union@unionEnCours" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.4/@children.1" label="//@children.2/@sourceConnections.4/@children.2" sourceEnd="//@children.2/@sourceConnections.4/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="unionEnCours" location="138,92" id="registre/Personne@lesUnis+registre/Union@unionEnCours|registre/Union#unionEnCours" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.4/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - unionEnCours" location="225,112" size="86,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="225,139" size="20,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lesUnis" location="0,92" id="registre/Personne@lesUnis+registre/Union@unionEnCours|registre/Personne#lesUnis" multiplicityLabel="//@children.2/@sourceConnections.4/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.4/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lesUnis" location="384,112" size="50,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="2..*" location="416,139" size="18,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="registre/Personne@officier+registre/Union@unionOfficiees" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.5/@children.1" label="//@children.2/@sourceConnections.5/@children.2" sourceEnd="//@children.2/@sourceConnections.5/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="unionOfficiees" location="133,104" id="registre/Personne@officier+registre/Union@unionOfficiees|registre/Union#unionOfficiees" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.5/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - unionOfficiees" location="118,151" size="88,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="220,151" size="5,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="officier" location="0,112" id="registre/Personne@officier+registre/Union@unionOfficiees|registre/Personne#officier" multiplicityLabel="//@children.2/@sourceConnections.5/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.5/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - officier" location="387,159" size="47,13" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="427,132" size="7,13" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Contrat" location="83,330" size="152,76" id="registre/Contrat" runTimeClassModel="date,type">
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="registre/Contrat#date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="type" id="registre/Contrat#type"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
